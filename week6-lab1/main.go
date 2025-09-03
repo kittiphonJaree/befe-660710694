@@ -124,7 +124,6 @@ func main() {
 	api := r.Group("/api/v1")
 	{
 		api.GET("/students", getStudents)
-
 		api.GET("/students/:id", getStudent)
 		api.POST("/students", createStudent)
 		api.PUT("/students/:id", updateStudent)
