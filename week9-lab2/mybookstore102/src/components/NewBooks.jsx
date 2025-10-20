@@ -13,7 +13,7 @@ const NewBooks = () => {
         setLoading(true);
         
         // เรียก API เพื่อดึงข้อมูลหนังสือใหม่
-        const response = await fetch('http://localhost:8080/api/v1/books/new');
+        const response = await fetch('http:/api/v1/books/new');
 
         if (!response.ok) {
           throw new Error('Failed to fetch new books');

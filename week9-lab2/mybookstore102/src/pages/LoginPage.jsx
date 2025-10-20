@@ -24,11 +24,11 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-viridian-600 to-green-700 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gradient-to-br from-green-600 to-green-700 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full space-y-8">
         <div>
           <div className="mx-auto h-16 w-16 bg-white rounded-full flex items-center justify-center">
-            <LockClosedIcon className="h-10 w-10 text-viridian-600" />
+            <LockClosedIcon className="h-10 w-10 text-blue-600" />
           </div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-white">
             เข้าสู่ระบบ BackOffice
@@ -96,7 +96,7 @@ const LoginPage = () => {
               <button
                 type="submit"
                 className="w-full flex justify-center py-3 px-4 border border-transparent
-                  rounded-lg shadow-sm text-sm font-medium text-white bg-viridian-600
+                  rounded-lg shadow-sm text-sm font-medium text-black bg-viridian-600
                   hover:bg-viridian-700 focus:outline-none focus:ring-2 focus:ring-offset-2
                   focus:ring-viridian-500 transition-colors duration-200"
               >

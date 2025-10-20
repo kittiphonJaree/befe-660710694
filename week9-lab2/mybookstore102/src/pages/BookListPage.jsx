@@ -38,7 +38,7 @@ const BookListPage = () => {
           setBooks(data);         // เก็บข้อมูลทั้งหมดไว้ใน state books
           setFilteredBooks(data);
   
-          setFeaturedBooks(selected);
+          //setFeaturedBooks(selected);
           setError(null);
           
         } catch (err) {

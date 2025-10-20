@@ -151,7 +151,7 @@ const AddBookPage = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <header className="bg-gradient-to-r from-viridian-600 to-green-700 text-white shadow-lg">
+      <header className="bg-gradient-to-r from-sky-600 to-green-700 text-white shadow-lg">
         <div className="container mx-auto px-4 py-6">
           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-3">
@@ -312,7 +312,7 @@ const AddBookPage = () => {
                     transition-colors duration-200
                     ${isSubmitting
                       ? 'bg-gray-400 cursor-not-allowed'
-                      : 'bg-viridian-600 hover:bg-viridian-700'}`}
+                      : 'bg-sky-600 hover:bg-viridian-700'}`}
                 >
                   {isSubmitting ? 'กำลังบันทึก...' : 'เพิ่มหนังสือ'}
                 </button>
